@@ -1,11 +1,10 @@
+import 'package:app2/app/core/colors.dart';
 import 'package:flutter/material.dart';
 
-import '../app/core/colors.dart';
-
-class GoogleBtn1 extends StatelessWidget {
-final Function() onPressed;
-  const GoogleBtn1({
-required this.onPressed,
+class AppleBtn1 extends StatelessWidget {
+  final Function() onPressed;
+  const AppleBtn1({
+    required this.onPressed,
     Key? key,
   }) : super(key: key);
 
@@ -36,11 +35,12 @@ required this.onPressed,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.network(
-              "https://firebasestorage.googleapis.com/v0/b/flutterbricks-public.appspot.com/o/crypto%2Fsearch%20(2).png?alt=media&token=24a918f7-3564-4290-b7e4-08ff54b3c94c",
+              "https://firebasestorage.googleapis.com/v0/b/flutterbricks-public.appspot.com/o/socials%2Fapple-black-logo.png?alt=media&token=c44581fa-6fd2-4ae2-bd85-18bfbe6386d2",
               width: 20,
             ),
             const SizedBox(width: 10),
-            const Text("Google",
+            const Text(
+              "Apple",
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 16

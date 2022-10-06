@@ -19,6 +19,10 @@ dependencies:
 
   get: ^4.6.5
 
+flutter_native_splash:
+  color: "#42a5f5"
+  image: assets/logo.png
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -27,6 +31,5 @@ dev_dependencies:
 
 flutter:
   assets:
-    [assets/]
+    - assets/
   uses-material-design: true
-
